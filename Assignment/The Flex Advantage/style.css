@@ -8,41 +8,37 @@
 .top-nav {
     height: 150px;
     background-color: green;
-    margin-bottom: 2%;
+    margin-bottom: 2.5%;
 }
 
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
-    display: inline-block;
 }
 
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
-    display: inline-block;
-    vertical-align: top;
-    padding: 2%;
+    margin: 0% 0% 0% 2%;
+    padding: 1.5%;
 }
 
 .sub-content {
     height: 200px;
     width: 210px;
     background-color: yellow;
-    justify-content: space-evenly;
-    display: inline-block;
+    margin: 1.5%;
 }
 
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
-    margin-top:2% ;
+    margin-top:1.5% ;
 }
 
 .row {
     display: flex;
-    justify-content: space-between;
 }
