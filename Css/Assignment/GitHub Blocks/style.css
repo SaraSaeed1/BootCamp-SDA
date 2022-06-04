@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+.body{
+    background-color: rgb(202, 202, 202);
+    padding: 2% 0%;
+}
+
+.container{
+    align-items:center;
+    flex-direction:column;
+}
+
+.octocat {
+    padding: 2%;
+    margin: 2% 0%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.octocat img{
+    height: 200px;
+}
+
+#oct1{
+    background-color: lavenderblush;
+}
+#oct2{
+    background-color: rgb(158, 92, 114);
+}
+#oct3{
+    background-color: rgb(112, 17, 48);
+}

@@ -1,0 +1,270 @@
+/* *{
+    border: 1px dotted red;
+} */
+
+/* body{
+    margin: auto;
+} */
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding: 0% 19%;
+    height: auto;
+    font-weight: bold;
+}
+
+.nav-links{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.nav-title{
+    color: white;
+    font-weight: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 46%;
+}
+
+.btn{
+    color: white;
+    background-color:deepskyblue;
+    font: bolder;
+    border: 2px solid rgb(0, 0, 0); /* Green */
+    height:30px;
+    width: 75px;
+    box-shadow: 4px 4px black;
+
+}
+#active{
+    color: white;
+}
+
+.nav-list a {
+    color: rgb(182, 179, 179);
+    text-decoration: none ;
+    font-weight: bold;
+}
+
+/* main */
+.main{
+    display: flex;
+    align-items: center;
+    /* background-color: blanchedalmond; */
+    flex-direction: row;
+    margin: 0% 19%;
+    height: auto;
+    justify-content: space-between;
+
+}
+
+.information , .connections{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0%;
+}
+.information{
+    width: 50%;
+
+}
+.connections{
+    width: 39%;
+}
+
+
+/* information  */
+
+
+.card , .education , .requests , .friend{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    border: 4px solid gray;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+    margin-top: 6%;
+}
+
+.requests{
+
+}
+
+
+
+.blue , .black{
+    margin:  -4px -4px 0px -4px ;
+    width: auto;
+    align-items:center;
+    vertical-align: top;
+    padding: 1%;
+
+}
+.blue{
+    height: 35px;
+    background-color:cornflowerblue;
+}
+
+.black{
+    height: 35px;
+    background-color:rgb(39, 39, 39);
+    display: flex;
+    padding-left: 4%;
+}
+
+.black  p {
+    color: white;
+    margin: 0%;
+    padding: 2%;
+    font-size: large;
+}
+#iconuser{
+    margin: -13px 0px 0px 7px;
+    padding: 2px;
+    height: 50px;
+    border: 2px solid gray;
+    border-radius:50% ;
+    background-color: white;
+
+
+}
+
+.name{
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding:2% 0% 0% 3%;
+}
+
+h1{
+    margin-bottom: 1%;
+}
+
+.location{
+    display: flex;
+    margin: 1% 0% ;
+    padding-left: 3%;
+}
+
+h5{
+    margin: 0;
+    margin-left: 12px;
+}
+#img{
+    height: 15px;
+}
+.info{
+    padding-left: 3%;
+    margin: 2% 0%
+}
+.info h4{
+    margin: 0% 0%;
+}
+
+.edit{
+    display: flex;
+    align-items: center;
+    padding:1% 0% 3% 3%;
+}
+
+p{
+    margin: 0%;
+    font-size: small;
+}
+
+.edit a{
+    padding-left: 2%;
+    font-size: medium;
+}
+
+.info-education{
+    padding: 0% 0% 2% 2%;
+}
+
+.info-education h4{
+    color: gray;
+    margin-top: 0%;
+}
+
+.info-education h3{
+    margin-bottom: 1%;
+}
+
+/* connections */
+
+
+#HowMany{
+    text-align: center;
+    background-color: #bdbdbd;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    margin: 0% 2%;
+    width: 10%;
+}
+
+#num{
+    text-align: center;
+    background-color: #bdbdbd;
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+    margin: 0% 2%;
+    width: 23%;
+}
+
+.new-friend{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding: 2%;
+}
+.new-friend img{
+    padding: 3px;
+    height: 28px;
+    border-radius: 50%;
+    align-items: center;
+}
+.button{
+    padding: 2px;
+    height: 1%;
+    border-radius:20% ;
+    border: none;
+}
+
+.name-friend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.button-requests{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.info-requests{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.view-more{
+    border-top:solid black;
+    padding: 2% 4%;
+}
